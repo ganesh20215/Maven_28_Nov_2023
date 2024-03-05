@@ -28,12 +28,12 @@ public class BasicTestNGExample {
     public void testCase2(){
         driver.navigate().to("https://testng.org/");
         driver.manage().window().maximize();
+        System.out.println("Good Evening....");
     }
 
     @Test
     public void testCase3(){
         driver.navigate().to("https://www.amazon.in/");
-        driver.manage().window().maximize();
     }
 
     @AfterMethod
