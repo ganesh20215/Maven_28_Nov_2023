@@ -18,7 +18,6 @@ public class BasicTestNGExample {
 
     @Test
     public void testCase1(){
-      //Upcasting
         driver.navigate().to("https://www.facebook.com/");
         driver.manage().window().maximize();
         System.out.println("Hello Everyone....");
