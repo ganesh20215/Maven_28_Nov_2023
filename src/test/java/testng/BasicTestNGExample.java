@@ -28,7 +28,6 @@ public class BasicTestNGExample {
     public void testCase2(){
         driver.navigate().to("https://testng.org/");
         driver.manage().window().maximize();
-        System.out.println("Good Evening....");
     }
 
     @Test
