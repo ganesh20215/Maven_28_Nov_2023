@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testng.retryanalysis.IAnnotationTransaformaerExample"/>
+  </listeners>
+  <test thread-count="5" name="E:/repo1/Maven_28_Nov_2023(failed)">
+    <classes>
+      <class name="testng.annotations.DependsOnMethodExample">
+        <methods>
+          <include name="verifyLogin2"/>
+        </methods>
+      </class> <!-- testng.annotations.DependsOnMethodExample -->
+      <class name="testng.annotations.BeforeMethodExample">
+        <methods>
+          <include name="case1"/>
+          <include name="method1"/>
+          <include name="afterMethod1"/>
+        </methods>
+      </class> <!-- testng.annotations.BeforeMethodExample -->
+    </classes>
+  </test> <!-- E:/repo1/Maven_28_Nov_2023(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

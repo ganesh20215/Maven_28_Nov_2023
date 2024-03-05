@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.retryanalysis.IAnnotationTransaformaerExample"></listener>
+    </listeners>
+<!--    <parameter name="courseName" value="Selenium"/>
+    <parameter name="cityName" value="pune"/>
+    <parameter name="browserName" value="chrome"/>-->
+    <test verbose="10" preserve-order="true" parallel="false" thread-count="4" name="E:/repo1/Maven_28_Nov_2023">
+        <classes>
+            <class name="testng.annotations.DependsOnMethodExample"/>
+            <class name="testng.annotations.BeforeMethodExample"/>
+<!--            <class name="testng.parameterization.DataProviderWithExcel"/>-->
+<!--            <class name="testng.parameterization.NeedOfParameterization"/>-->
+<!--            <class name="testng.parameterization.NormalDataProvider"/>-->
+        </classes>
+    </test>
+</suite>
