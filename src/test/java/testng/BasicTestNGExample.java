@@ -32,6 +32,7 @@ public class BasicTestNGExample {
     @Test
     public void testCase3(){
         driver.navigate().to("https://www.amazon.in/");
+         driver.manage().window().maximize();
     }
 
     @AfterMethod
