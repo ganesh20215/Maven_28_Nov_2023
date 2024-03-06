@@ -20,7 +20,6 @@ public class BasicTestNGExample {
     public void testCase1(){
         driver.navigate().to("https://www.facebook.com/");
         driver.manage().window().maximize();
-        System.out.println("Hello Everyone....");
     }
 
     @Test
